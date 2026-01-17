@@ -27,8 +27,25 @@
         
 
             <div class="sign-container">
+                <div class="unsigned">
                 <div class="sign-in"><a href="#">로그인</a></div>
                 <div class="sign-up"><a href="#">회원가입</a></div>
+                </div>
+            <!--unsigned-->
+            <div class="signed hidden">
+                <div class="dropdown">
+                    <div class="dropdown-button">
+                        안녕하세요<span id=" nickname">홍길동</span>님
+                        <i class="fa-solid fa-caret-down"></i>
+                    </div>  
+                    <!--dropdown-button-->
+                    <div class="dropdown-content">
+                        <button id="sing-out">로그아웃</button>
+                    </div>
+                    <!--dropdown-content-->
+                </div>
+            </div>
+            <!--signed-->
             </div>
         </div>
         <!--header-container-->    
