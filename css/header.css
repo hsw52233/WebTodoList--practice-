@@ -1,0 +1,61 @@
+:root {
+    --light-gray: #f4f4f4;
+    --main-blue: #4aa8d8;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+html {
+    font-size: 10px;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+header {
+    background-color: var(--light-gray);
+}
+
+.title a {
+    font-size: 2rem;
+    color: var(--main-blue);
+    font-weight: 900;
+}
+
+.sign-container{
+    display: flex;
+}
+
+.sign-container a {
+    font-size: 1.6rem;
+}
+
+.sign-in {
+    margin-right: 1rem;
+}
+
+@media only all and (min-width: 1200px){
+    .inner{
+        max-width: 1200px;
+    }
+
+    html{
+        font-size: 12px;
+    }
+}
+
+.inner{
+    margin: 0 auto;
+}
